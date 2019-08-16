@@ -103,7 +103,7 @@ main #tours .tours-examples .tour .btn {
     border-radius: 5px;
 }
 
-main #video {
+main #video-section {
     display: flex;
     justify-content: center;
 }
