@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,700&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(226, 226, 226);
+    margin: 0;
+}
+
+#header {
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(53, 53, 53);
+}
+
+#header #header-img {
+    max-height: 100px;
+    width: auto;
+}
+
+#header #nav-bar {
+    align-self: flex-end;
+    padding-bottom: 10px;
+}
+
+#header #nav-bar .nav-link {
+    margin: 0 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+main {
+    max-width: 950px;
+    margin: 0 auto;
+    padding-top: 120px;
+}
+
+main section {
+    margin: 50px 0;
+}
+
+main h2 {
+    text-align: center;
+}
+
+main #about-us p {
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+}
+
+main #tours {
+    margin: 25px 0;
+}
+
+main #tours .tours-examples {
+    display: flex;
+    justify-content: space-around;
+}
+
+main #tours .tours-examples .tour {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    min-width: 280px;
+    height: 300px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+main #tours .tours-examples .tour h3 {
+    height: 50px;
+    margin-top: 0;
+    line-height: 50px;
+    background-color: rgb(192, 191, 191);
+}
+
+main #tours .tours-examples .tour span {
+    font-weight: 700;
+}
+
+main #tours .tours-examples .tour .price {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+main #tours .tours-examples .tour p {
+    line-height: 30px;
+}
+
+main #tours .tours-examples .tour .btn {
+    margin: 10px auto;
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    background-color: rgba(65, 105, 225, 0.671);
+    border: none;
+    border-radius: 5px;
+}
+
+main #video {
+    display: flex;
+    justify-content: center;
+}
+
+#contacts .container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#contacts #form #email {
+    width: 300px;
+    height: 25px;
+    padding: 5px;
+}
+
+#contacts #form #submit {
+    display: block;
+    margin: 20px auto;
+    height: 35px;
+    width: 150px;
+    font-size: 16px;
+    background-color: rgba(65, 105, 225, 0.671);
+    border: none;
+    border-radius: 5px;
+}
+
+#contacts .contact-img {
+    width: 35px;
+    height: 35px;
+}
+
+footer {
+    height: 50px;
+    color: white;
+    background-color: rgb(53, 53, 53);
+}
+
+footer p {
+    margin-right: 20px;
+    font-size: 16px;
+    line-height: 50px;
+    text-align: end;
+}
