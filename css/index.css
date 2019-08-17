@@ -67,6 +67,7 @@ main #tours .tours-examples .tour {
     flex-direction: column;
     justify-content: space-between;
     align-content: center;
+    margin: 20px;
     min-width: 280px;
     height: 300px;
     text-align: center;
@@ -103,9 +104,19 @@ main #tours .tours-examples .tour .btn {
     border-radius: 5px;
 }
 
+main #tours .tours-examples .tour .btn:hover {
+    cursor: pointer;
+    background-color: rgb(65, 105, 225);
+}
+
 main #video-section {
     display: flex;
     justify-content: center;
+}
+
+main #video-section #video {
+    width: 682px;
+    height: 384px;
 }
 
 #contacts .container {
@@ -130,9 +141,28 @@ main #video-section {
     border-radius: 5px;
 }
 
-#contacts .contact-img {
-    width: 35px;
+#contacts #form #submit:hover {
+    cursor: pointer;
+    background-color: rgb(65, 105, 225);
+}
+
+#contacts .contacts-cont {
     height: 35px;
+    line-height: 35px;
+    padding-left: 50px;
+    margin: 15px 0;
+}
+
+#contacts .contacts-cont.address {
+    background: url(../img/place.svg) no-repeat;
+}
+
+#contacts .contacts-cont.phone {
+    background: url(../img/phone.svg) no-repeat;
+}
+
+#contacts .contacts-cont.email {
+    background: url(../img/email.svg) no-repeat;
 }
 
 footer {
@@ -147,3 +177,9 @@ footer p {
     line-height: 50px;
     text-align: end;
 }
+
+@media (max-width: 900px) {
+    main #tours .tours-examples {
+        flex-wrap: wrap;
+    }
+} 
